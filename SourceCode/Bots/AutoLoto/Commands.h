@@ -85,12 +85,14 @@ static const Command m_command[] PROGMEM = {
 	{HOME, 5},
 	{NOTHING, 120},
 	
-	//----------Loto [56,62]----------
+	//----------Loto [56,64]----------
 	{A, 60},		// Talk
 	{B, 40},
 	{DPAD_DOWN, 4},
-	{A_SPAM, 50},	// Try Loto-ID
-	{B_SPAM, 200},
+	{A, 80},    // Try Loto-ID
+	{B, 60},
+	{A, 40},
+	{B, 40},
 	{A_SPAM, 50},	// Yes
 	{B_SPAM, 1260},
 };
